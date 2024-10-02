@@ -21,6 +21,7 @@
         <activity
             android:name=".activity.LoginActivity"
             android:configChanges="orientation|screenSize"
+            android:exported="true"
             android:screenOrientation="portrait">
 
             <!-- Intent para establecer la actividad de login como la primera pantalla -->
